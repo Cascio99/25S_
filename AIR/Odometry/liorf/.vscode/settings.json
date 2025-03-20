@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "iomanip": "cpp",
+        "mutex": "cpp",
+        "sstream": "cpp",
+        "queue": "cpp",
+        "cmath": "cpp",
+        "deque": "cpp",
+        "iostream": "cpp",
+        "cfloat": "cpp",
+        "fstream": "cpp",
+        "ctime": "cpp",
+        "iterator": "cpp",
+        "string": "cpp",
+        "array": "cpp",
+        "thread": "cpp",
+        "limits": "cpp"
+    }
+}

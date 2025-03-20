@@ -52,3 +52,5 @@ featureAssociation.cpp
 --> Line793, 800, 807, 811
 
 3. settings for ouster os1-32: fix utility.h
+
+4. /.vscode

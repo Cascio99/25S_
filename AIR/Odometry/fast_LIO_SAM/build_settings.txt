@@ -1,0 +1,24 @@
+https://blog.csdn.net/weixin_44583856/article/details/122716587
+
+$ sudo apt-get install geographiclib-*
+$ sudo apt-get install libgeographic-*
+
+$ echo "source ~/fast_lio_sam_ws/devel/setup.bash" >> ~/.bashrc && source ~/.bashrc
+
+install GTSAM: followed LeGO-LOAM' dependency link
+https://github.com/RobustFieldAutonomyLab/LeGO-LOAM?tab=readme-ov-file#dependency
+
+--> Modify FAST_LIO_SAM/CMakeLists.txt
+
+$ roslaunch fast_lio_sam mapping_ouster32.launch 
+... logging to /home/ysw/.ros/log/ff168a82-fb2c-11ef-9828-19fa000874f3/roslaunch-omen-445472.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+Resource not found: fast_lio
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/home/ysw/fast_lio_sam_ws/src
+ROS path [2]=/home/ysw/catkin_ws/src
+ROS path [3]=/opt/ros/noetic/share
+The traceback for the exception was written to the log file
