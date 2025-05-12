@@ -1,0 +1,5 @@
+<launch>
+  <!-- Launch the localization node -->
+  <node name="localization_node" pkg="localization" type="localization_node" output="screen" />
+  <node name="test_gps_node" pkg="localization" type="test_gps_node" output="screen" />
+</launch>
