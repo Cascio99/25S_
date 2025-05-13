@@ -16,6 +16,7 @@
 - [GPP_link](https://github.com/kdh044/Jbnu-Final/tree/main/global_path_planner)
 - [Faster-LIO](https://github.com/gaoxiang12/faster-lio)
 - [setting](https://github.com/Cascio99/25S_/tree/main/AIR/Odometry/fasterLIO)
+- [robot_localization](https://docs.ros.org/en/melodic/api/robot_localization/html/integrating_gps.html)
 
 ### log
     20250512
@@ -26,3 +27,5 @@
             1. UTM 정확환 좌표인지 확인할 필요 있음.
             2. Localization v2: Mark waypoints in rviz
             3. Faster-LIO modification: GPS Fusion (tuning Kalman Filter model?)
+            4. Consider using `robot_localization` package
+            5. waypoint 지나는 거 체크 및 위치 재조정 ?= GPS fusion
