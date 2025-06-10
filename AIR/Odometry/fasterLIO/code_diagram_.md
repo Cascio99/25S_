@@ -29,7 +29,7 @@
 #### ivox_nearby_type: 18             // 6, 18, 26
 #### esti_plane_threshold: 0.1
     esti_plane() in ObsModel(): threshold for considering a plane wrt nn point of current scan
-    larger threshold = more points selected
+    smaller threshold = less points selected = lower memory usage
 
 # System Flow
 
