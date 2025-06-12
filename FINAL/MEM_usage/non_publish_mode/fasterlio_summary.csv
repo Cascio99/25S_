@@ -1,0 +1,8 @@
+Process,CPU 평균 (%),CPU 최대 (%),RAM 평균 (MB),RAM 최대 (MB),샘플 수
+ROS Launch,0.0,0.0,44.12,44.12,7
+FASTER-LIO Core,0.0,0.0,154.11,189.62,7
+ROS Master,0.0,0.0,40.8,40.8,7
+ROS Out,0.0,0.0,10.95,10.95,7
+Laser Mapping,0.0,0.0,109.99,145.5,7
+RViz Visualization,0.0,0.0,149.75,152.67,7
+ROS Bag Player,0.0,0.0,72.5,72.5,7

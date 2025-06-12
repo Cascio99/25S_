@@ -1,0 +1,13 @@
+/usr/bin/python3/opt/ros/noetic/bin/roslaunch faster_lio mapping_ouster32.launch
+
+/usr/bin/python3/opt/ros/noetic/bin/rosmater --core -p 11311 -w 3 __log:=/home/ysw/.ros/log/c69011b4-4768-11f0-b047-31f47ba59333/master.log
+
+/opt/ros/noetic/lib/rosout/rosout __name:=rosout __log:=/home/ysw/.ros/log/c69011b4-4768-11f0-b047-31f47ba59333/rosout-1.log
+
+/home/ysw/catkin_ws/devel/lib/faster_lio/faster_lio/run_mapping_online __name:=laserMapping __log:=/home/ysw/.ros/log/c69011b4-4768-11f0-b047-31f47ba59333/laserMapping-2.log
+
+/opt/ros/noetic/lib/rviz/rviz -d /home/ysw/catkin_ws/src/faster-lio/rviz_cfg/loam_livox.rviz __name:=rviz __log:=/home/ysw/.ros/log/c69011b4-4768-11f0-b047-31f47ba59333/rviz-3.log
+
+/usr/bin/python3/opt/ros/noetic/bin/rosbag play 2024-03-16-15-07-14.bag --topics /ouster/points /ouster/imu --clock
+
+/opt/ros/noetic/lib/rosbag/play --clock --hz 100 --queue 100 --rate 1.0 --delay 0.2 --start 0.0 --topics /ouster/points /ouster/imu --bags 2024-03-16-15-07-14.bag --rate-control-max-delay 1.0

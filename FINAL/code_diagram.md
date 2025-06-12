@@ -1,11 +1,15 @@
 # Key configs
 
 
-#### *****options_.capacity: ivox3d::line53~57
+#### ***** options_.capacity: ivox3d::line53~57
     max # of voxels(grids) the map can hold!
     When the # of voxels exceseds capacity, "THE OLDEST ARE PRUNED" from voxel hash map(grids_map_)
     AddPoints() in MapIncremental(): ivox3d::line271~274
     value: 1000000 -> ?
+    smaller value = lower memory usage
+#### *** cube_side_length: 1000
+    side length of the localmap
+    smaller value = lower memory usage
 #### point_filter_num: 3
     # of times to apply the point cloud filter (i.e. outlier removal / downsampling)
 #### max_iteration: 3
@@ -19,10 +23,7 @@
     If 0, all downsampled scan points are added to the localmap
     MapIncremental()
     Larger value = lower memory usage
-#### *cube_side_length: 1000
-    side length of the localmap
-    smaller value = lower memory usage
-#### *ivox_grid_resolution: 0.5
+#### ivox_grid_resolution: 0.5
     size of each voxel(grid) in the ivox_(localmap).
     ivox3d::Pos2Grid() in GetClosestPoint()
     smaller resolution = lower memory usage = coarser map
