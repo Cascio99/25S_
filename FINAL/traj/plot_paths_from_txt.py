@@ -22,7 +22,7 @@ def load_path_from_txt(filepath):
 
 # 파일 경로 지정
 default_txt = '/home/ysw/ws/25S_/FINAL/traj/traj_0.txt'
-custom_txt = '/home/ysw/ws/25S_/FINAL/traj/traj_1.txt'
+custom_txt = '/home/ysw/ws/25S_/FINAL/traj/traj_4.txt'
 
 # 데이터 로딩
 default_path = load_path_from_txt(default_txt)
